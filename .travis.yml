@@ -8,8 +8,7 @@ python:
 - 3.5.0
 
 script:
-- export BOTO_CONFIG=/tmp/bogusvalue
-- docker build .
+- echo "No build"
 
 after_success:
 - test $TRAVIS_PULL_REQUEST = false
